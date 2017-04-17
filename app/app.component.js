@@ -13,7 +13,12 @@ AppComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'app',
-        template: '<h1>Navigation</h1>'
+        template: `
+
+  <h1>Navigation</h1>
+
+  <router-outlet></router-outlet>
+  `
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

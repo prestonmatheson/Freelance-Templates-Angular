@@ -11,8 +11,9 @@ let HomepageComponent = class HomepageComponent {
 };
 HomepageComponent = __decorate([
     core_1.Component({
-        selector: 'main-app',
-        template: '<h1>Freelancer Bootcamp Dashboard</h1>'
+        moduleId: module.id,
+        selector: 'homepage',
+        templateUrl: 'homepage.component.html'
     })
 ], HomepageComponent);
 exports.HomepageComponent = HomepageComponent;
