@@ -7,18 +7,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
-const proposal_1 = require("./proposal");
-let ProposalNewComponent = class ProposalNewComponent {
-    constructor() {
-        this.proposal = new proposal_1.Proposal;
-    }
+let ProposalShowComponent = class ProposalShowComponent {
 };
-ProposalNewComponent = __decorate([
+ProposalShowComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'proposal-new',
-        templateUrl: 'proposal-new.component.html'
+        selector: 'proposal-show',
+        templateUrl: 'proposal-show.component.html'
     })
-], ProposalNewComponent);
-exports.ProposalNewComponent = ProposalNewComponent;
-//# sourceMappingURL=proposal-new.component.js.map
+], ProposalShowComponent);
+exports.ProposalShowComponent = ProposalShowComponent;
+//# sourceMappingURL=proposal-show.component.js.map
