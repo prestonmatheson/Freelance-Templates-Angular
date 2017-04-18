@@ -39,7 +39,8 @@ DocumentsComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'documents',
-        templateUrl: 'documents.component.html'
+        templateUrl: 'documents.component.html',
+        styleUrls: ['documents.component.css']
     })
 ], DocumentsComponent);
 exports.DocumentsComponent = DocumentsComponent;
