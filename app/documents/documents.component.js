@@ -16,21 +16,21 @@ let DocumentsComponent = class DocumentsComponent {
                 description: 'asdfasdfasdf asdfasdf',
                 file_url: 'http://google.com',
                 updated_at: '04/17/17',
-                image_url: 'http://google.com',
+                image_url: 'https://static.pexels.com/photos/6415/apple-desk-office-working.jpg',
             },
             {
                 title: 'My Second Doc',
                 description: 'asdfasdfasdf asdfasdf',
                 file_url: 'http://google.com',
                 updated_at: '04/17/17',
-                image_url: 'http://google.com',
+                image_url: 'https://static.pexels.com/photos/6415/apple-desk-office-working.jpg',
             },
             {
                 title: 'My Last Doc',
                 description: 'asdfasdfasdf asdfasdf',
                 file_url: 'http://google.com',
                 updated_at: '04/17/17',
-                image_url: 'http://google.com',
+                image_url: 'https://static.pexels.com/photos/6415/apple-desk-office-working.jpg',
             }
         ];
     }
